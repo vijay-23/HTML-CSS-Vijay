@@ -1,0 +1,45 @@
+body {
+    font-family: "Arial","sans-serif";
+}
+nav {
+    background-color: black;
+    padding: 13px;
+}
+a:hover {
+    color: #d6d6d6;
+}
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-right: 2px solid white;
+    padding-right: 5px;
+}
+
+div.wrapper {
+    width: 100%;
+}
+
+article {
+    margin-top: 10px;
+    float:left;
+    width: 49%;
+    margin-right: 1%;
+
+}
+table {
+    width: 29%;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td {
+    padding: 15px;
+    border: 1px solid black;
+}
+td.green {
+    background-color: #4de370;
+}
+td.blue {
+    background-color: #22f0e5;
+}
