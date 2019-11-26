@@ -1,0 +1,61 @@
+body {
+    font-family: "Arial","sans-serif";
+    background-color: #FCEBEB;
+}
+.navbar {
+    background-color: #919191;
+    margin: 2px;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar li:hover {
+    background-color: lightslategray;
+}
+
+.imgwrapper {
+    margin-left: 2px;
+    display: block;
+    width: 68%;
+}
+
+div.appel {
+    float: left;
+    width: 50%;
+}
+div.boxsection {
+    float: right;
+    width: 50%;
+    margin-bottom: 10px;
+}
+div.artikelen {
+    display: block;
+    height: 500px;
+}
+article {
+    display: inline-block;
+    width: 50%;
+    height: 620px;
+}
+div.paragraaf {
+    margin: 5px;
+    vertical-align: top;
+    display: inline-block;
+    max-width: 20%;
+}
+.img {
+    margin: 0;
+}
+
+.imgsection {
+    margin: 0;
+}
