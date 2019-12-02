@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Opdracht6Formulier2.css">
+    <meta charset="UTF-8">
+    <title>Formulier 2</title>
+</head>
+<body>
+<div class="title-text"><h1>AanmeldFormulier</h1></div>
+
+<form id="myform" action="http://www.savatarian.com/html5/form.php" method="post">
+
+<div class="checkboxes">
+    <label class="lekker-eten">Lekker eten:</label><br>
+    <input type="checkbox" name="lekker-eten" value="patat">
+    <span class="checkbox">Friet</span><br>
+    <input type="checkbox" name="lekker-eten" value="bruine bonen">
+    <span class="checkbox">Bruine bonen</span><br>
+    <input type="checkbox" name="lekker-eten" value="linzen">
+    <span class="checkbox">Linzen</span><br>
+</div>
+
+<div class="form-group">
+    <label for="voornaam">Voornaam: </label>
+    <input type="text" class="float" id="voornaam" name="voornaam">
+</div>
+
+<div class="form-group">
+    <label for="tussenvoegsel">Tussenvoegsel: </label>
+    <input type="text" class="float" id="tussenvoegsel" name="tussenvoegsel">
+</div>
+
+<div class="form-group">
+    <label for="achternaam">Achternaam:</label>
+    <input type="text" class="float" id="achternaam" name="achternaam">
+</div>
+
+<div class="form-group2">
+    <label>Geslacht:</label>
+    <div class="form-group2-input">
+        <input type="radio" id="man" name="man" value="man"/>
+        &nbsp;Man
+        <input type="radio" id="vrouw" name="vrouw" value="vrouw"/>
+        &nbsp;Vrouw
+    </div>
+</div>
+
+<div class="form-group3">
+    <label>Kleur ogen:</label>
+    <select name="color eyes">
+        <option>Kies kleur..</option>
+        <option>Groen</option>
+        <option>Licht bruin</option>
+        <option>Donker bruin</option>
+        <option>Blauw</option>
+        <option>Grijs</option>
+    </select>
+</div>
+
+<div class="form-group4">
+    <label for="geboortedatum"> Geboortedatum: </label>
+    <input type="date"class="float" id="geboortedatum" name="geboortedatum">
+</div>
+
+<div class="form-group5">
+    <label for="omschrijving"> Omschrijving:</label>
+    <textarea name="omschrijving" id="omschrijving" cols="30" rows="10"></textarea>
+</div>
+</form>
+<div class="tha-button-thing">
+<button form="myform">Inleveren</button>
+<button form="myform" type="reset">Annuleer</button>
+</div>
+</body>
+</html>

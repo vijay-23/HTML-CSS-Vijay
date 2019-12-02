@@ -1,0 +1,67 @@
+div.title-text {
+    padding-left: 10px;
+}
+div.form-group {
+    width: 300px;
+    padding: 15px;
+}
+.float {
+    float: right;
+}
+div.form-group4 {
+    width: 300px;
+    padding: 15px;
+}
+select {
+    float: right;
+}
+div.form-group2 {
+    width: 295px;
+    padding: 15px;
+}
+
+.form-group2-input {
+    display: inline-block;
+    width: 160px;
+    float: right;
+}
+div.form-group3 {
+    width: 255px;
+    padding: 15px;
+}
+
+.form-group3 {
+    float: left;
+}
+
+div.form-group5 {
+    width: 425px;
+    padding: 15px;
+}
+textarea {
+    display: inline-block;
+    float: right;
+    width: 250px;
+    padding-right: 30px;
+}
+
+div.checkboxes {
+    display: inline-block;
+    float: right;
+    width: 500px;
+    padding-right: 550px;
+}
+.checkboxes {
+    padding-left: 50px;
+}
+
+.lekker-eten {
+    padding-right: 50px;
+}
+
+.tha-button-thing {
+    position: absolute;
+    left: 490px;
+    bottom: 170px;
+
+}
