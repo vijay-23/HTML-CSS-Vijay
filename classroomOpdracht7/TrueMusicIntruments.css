@@ -85,7 +85,7 @@ footer {
 
 
 /*SWITCH TO TABLET-SIZE*/
-@media all and (min-width: 623px) {
+@media only screen and (min-width: 600px) {
     .nieuws-article {
         width: 40%;
         float: left;
@@ -100,7 +100,7 @@ footer {
     }
 }
 /*SWITCH TO DEKSTOP-SIZE*/
-@media all and (min-width: 786px) {
+@media only screen and (min-width: 768px) {
     .nieuws-article {
         width: 30%;
         float: left;
