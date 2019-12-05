@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+
+    font-family: 'Solway', serif;
+}
+
+header {
+    background-color: #0D47A1;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+nav {
+    background-color: #616161;
+    color: white;
+}
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    padding: 8px;
+    padding-left: 12px;
+    border-top: 1px solid white;
+}
+li a {
+    color: white;
+    text-decoration: none;
+}
+li:hover {
+    background-color: #757575;
+}
+
+@media all and (min-width: 623px){
+    ul {
+        background-color: #616161;
+    }
+    li {
+        display: inline-block;
+        border: none;
+    }
+}
+        /*END OF NAV-BAR*/
+
+h3 {
+    color: #D50000;
+    font-size: 23px;
+    padding-bottom: 10px;
+    padding-top: 25px;
+}
+
+.logotruemusic {
+    width: 25%;
+}
+
+.nieuws-article {
+    padding-bottom: 3px;
+}
+section {
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.nieuws-article {
+    padding-left: 20px;
+}
+footer {
+    background-color: #616161;
+    padding: 20px;
+    clear: both;
+}
+
+.footer-title {
+     padding-top: 1px;
+ }
+
+@media all and (min-width: 623px) {
+    .nieuws-article {
+        width: 40%;
+        float: left;
+    }
+    .instruments {
+        width: 60%;
+        float: right;
+    }
+
+    li {
+        border: none;
+    }
+}
+
+@media all and (min-width: 786px) {
+    .nieuws-article {
+        width: 30%;
+        float: left;
+    }
+    .instruments {
+        width: 70%;
+        float: right;
+    }
+
+    article {
+        display: inline-block;
+        width: 45%;
+        margin-right: 20px;
+        vertical-align: top;
+    }
+    .first {
+        float: right;
+        margin-right: 0;
+    }
+    .second {
+        float: right;
+        margin-right: 0;
+    }
+
+    li {
+        border: none;
+    }
+}
+
+
+iframe {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.p-tag {
+    color: white;
+}
+
+img {
+    width: 100%;
+}
