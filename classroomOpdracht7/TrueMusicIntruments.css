@@ -36,6 +36,8 @@ li:hover {
     background-color: #757575;
 }
 
+
+
 @media all and (min-width: 623px){
     ul {
         background-color: #616161;
@@ -46,6 +48,8 @@ li:hover {
     }
 }
         /*END OF NAV-BAR*/
+
+
 
 h3 {
     color: #D50000;
@@ -79,6 +83,8 @@ footer {
      padding-top: 1px;
  }
 
+
+/*SWITCH TO TABLET-SIZE*/
 @media all and (min-width: 623px) {
     .nieuws-article {
         width: 40%;
@@ -93,7 +99,7 @@ footer {
         border: none;
     }
 }
-
+/*SWITCH TO DEKSTOP-SIZE*/
 @media all and (min-width: 786px) {
     .nieuws-article {
         width: 30%;
